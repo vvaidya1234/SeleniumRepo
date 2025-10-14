@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="jrgrossTestSuite">
+<listeners>
+	<listener class-name="com.tiu.custom_listener.Listener"></listener>
+</listeners>
+  <test name="Regression Test">
+	<classes>
+		<class name="com.tiu.jrgros_automation.TC01_LoginVerify"/>
+		<class name="com.tiu.jrgros_automation.TC03_LoginInvalidTest"/>
+		<class name="com.tiu.jrgros_automation.TC018_FellowshipGrantFormTest"/>
+		<class name="com.tiu.jrgros_automation.TC020_RSSIntakeForm"/>
+		<class name="com.tiu.jrgros_automation.TC_015_ReimbursementFormApplication"/>
+		<class name="com.tiu.jrgros_automation.TC04_GlobalSearch"/>
+		<class name="com.tiu.jrgros_automation.TC008_PhotoSub"/>
+		<class name="com.tiu.jrgros_automation.TC30_NegNewCaseCorner"/>
+		<class name="com.tiu.jrgros_automation.TC031_SocialMediaSubmission"/>
+		<class name="com.tiu.jrgros_automation.TC031_NegativeSocialMediaSubmission"/>
+		<class name="com.tiu.jrgros_automation.TC009_VideoSub_TestNew"/>
+		<class name="com.tiu.jrgros_automation.TC_changePWD"/>
+		<class name="com.tiu.jrgros_automation.TC01_LoginVerifyByExcelData"/>
+	</classes>
+  </test>
+</suite> 
